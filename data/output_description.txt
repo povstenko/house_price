@@ -1,23 +1,7 @@
-MSZoning: Identifies the general zoning classification of the sale.
-		
-       A	Agriculture
-       C	Commercial
-       FV	Floating Village Residential
-       I	Industrial
-       RH	Residential High Density
-       RL	Residential Low Density
-       RP	Residential Low Density Park 
-       RM	Residential Medium Density
-	
 LotFrontage: Linear feet of street connected to property
 
 LotArea: Lot size in square feet
 
-Street: Type of road access to property
-
-       Grvl	Gravel	
-       Pave	Paved
-       	
 Alley: Type of alley access to property
 
        Grvl	Gravel
@@ -30,29 +14,7 @@ LotShape: General shape of property
        IR1	Slightly irregular
        IR2	Moderately Irregular
        IR3	Irregular
-       
-LandContour: Flatness of the property
 
-       Lvl	Near Flat/Level	
-       Bnk	Banked - Quick and significant rise from street grade to building
-       HLS	Hillside - Significant slope from side to side
-       Low	Depression
-		
-Utilities: Type of utilities available
-		
-       AllPub	All public Utilities (E,G,W,& S)	
-       NoSewr	Electricity, Gas, and Water (Septic Tank)
-       NoSeWa	Electricity and Gas Only
-       ELO	Electricity only	
-	
-LotConfig: Lot configuration
-
-       Inside	Inside lot
-       Corner	Corner lot
-       CulDSac	Cul-de-sac
-       FR2	Frontage on 2 sides of property
-       FR3	Frontage on 3 sides of property
-	
 LandSlope: Slope of property
 		
        Gtl	Gentle slope
@@ -86,31 +48,7 @@ Neighborhood: Physical locations within Ames city limits
        StoneBr	Stone Brook
        Timber	Timberland
        Veenker	Veenker
-			
-Condition1: Proximity to various conditions
-	
-       Artery	Adjacent to arterial street
-       Feedr	Adjacent to feeder street	
-       Norm	Normal	
-       RRNn	Within 200' of North-South Railroad
-       RRAn	Adjacent to North-South Railroad
-       PosN	Near positive off-site feature--park, greenbelt, etc.
-       PosA	Adjacent to postive off-site feature
-       RRNe	Within 200' of East-West Railroad
-       RRAe	Adjacent to East-West Railroad
-	
-Condition2: Proximity to various conditions (if more than one is present)
-		
-       Artery	Adjacent to arterial street
-       Feedr	Adjacent to feeder street	
-       Norm	Normal	
-       RRNn	Within 200' of North-South Railroad
-       RRAn	Adjacent to North-South Railroad
-       PosN	Near positive off-site feature--park, greenbelt, etc.
-       PosA	Adjacent to postive off-site feature
-       RRNe	Within 200' of East-West Railroad
-       RRAe	Adjacent to East-West Railroad
-	
+
 BldgType: Type of dwelling
 		
        1Fam	Single-family Detached	
@@ -142,20 +80,7 @@ OverallQual: Rates the overall material and finish of the house
        3	Fair
        2	Poor
        1	Very Poor
-	
-OverallCond: Rates the overall condition of the house
 
-       10	Very Excellent
-       9	Excellent
-       8	Very Good
-       7	Good
-       6	Above Average	
-       5	Average
-       4	Below Average	
-       3	Fair
-       2	Poor
-       1	Very Poor
-		
 YearBuilt: Original construction date
 
 YearRemodAdd: Remodel date (same as construction date if no remodeling or additions)
@@ -303,8 +228,6 @@ BsmtFinType2: Rating of basement finished area (if multiple types)
        Unf	Unfinshed
        NA	No Basement
 
-BsmtFinSF2: Type 2 finished square feet
-
 BsmtUnfSF: Unfinished square feet of basement area
 
 TotalBsmtSF: Total square feet of basement area
@@ -343,13 +266,9 @@ Electrical: Electrical system
  
 2ndFlrSF: Second floor square feet
 
-LowQualFinSF: Low quality finished square feet (all floors)
-
 GrLivArea: Above grade (ground) living area square feet
 
 BsmtFullBath: Basement full bathrooms
-
-BsmtHalfBath: Basement half bathrooms
 
 FullBath: Full bathrooms above grade
 
@@ -442,14 +361,6 @@ WoodDeckSF: Wood deck area in square feet
 
 OpenPorchSF: Open porch area in square feet
 
-EnclosedPorch: Enclosed porch area in square feet
-
-3SsnPorch: Three season porch area in square feet
-
-ScreenPorch: Screen porch area in square feet
-
-PoolArea: Pool area in square feet
-
 PoolQC: Pool quality
 		
        Ex	Excellent
@@ -474,12 +385,6 @@ MiscFeature: Miscellaneous feature not covered in other categories
        Shed	Shed (over 100 SF)
        TenC	Tennis Court
        NA	None
-		
-MiscVal: $Value of miscellaneous feature
-
-MoSold: Month Sold (MM)
-
-YrSold: Year Sold (YYYY)
 
 SaleType: Type of sale
 		
